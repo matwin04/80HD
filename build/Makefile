@@ -57,10 +57,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/frostie/PycharmProjects/ADHDOrganizer
+CMAKE_SOURCE_DIR = /Users/frostie/PycharmProjects/80HD
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/frostie/PycharmProjects/ADHDOrganizer/build
+CMAKE_BINARY_DIR = /Users/frostie/PycharmProjects/80HD/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/frostie/PycharmProjects/ADHDOrganizer/build/CMakeFiles /Users/frostie/PycharmProjects/ADHDOrganizer/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/frostie/PycharmProjects/80HD/build/CMakeFiles /Users/frostie/PycharmProjects/80HD/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/frostie/PycharmProjects/ADHDOrganizer/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/frostie/PycharmProjects/80HD/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ADHDOrganizer
+# Target rules for targets named 80HD
 
 # Build rule for target.
-ADHDOrganizer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ADHDOrganizer
-.PHONY : ADHDOrganizer
+80HD: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 80HD
+.PHONY : 80HD
 
 # fast build rule for target.
-ADHDOrganizer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ADHDOrganizer.dir/build.make CMakeFiles/ADHDOrganizer.dir/build
-.PHONY : ADHDOrganizer/fast
+80HD/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/80HD.dir/build.make CMakeFiles/80HD.dir/build
+.PHONY : 80HD/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ADHDOrganizer.dir/build.make CMakeFiles/ADHDOrganizer.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/80HD.dir/build.make CMakeFiles/80HD.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ADHDOrganizer.dir/build.make CMakeFiles/ADHDOrganizer.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/80HD.dir/build.make CMakeFiles/80HD.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ADHDOrganizer.dir/build.make CMakeFiles/ADHDOrganizer.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/80HD.dir/build.make CMakeFiles/80HD.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ADHDOrganizer"
+	@echo "... 80HD"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

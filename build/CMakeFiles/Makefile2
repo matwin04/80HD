@@ -54,16 +54,16 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/frostie/PycharmProjects/ADHDOrganizer
+CMAKE_SOURCE_DIR = /Users/frostie/PycharmProjects/80HD
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/frostie/PycharmProjects/ADHDOrganizer/build
+CMAKE_BINARY_DIR = /Users/frostie/PycharmProjects/80HD/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ADHDOrganizer.dir/all
+all: CMakeFiles/80HD.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ADHDOrganizer.dir/clean
+clean: CMakeFiles/80HD.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ADHDOrganizer.dir
+# Target rules for target CMakeFiles/80HD.dir
 
 # All Build rule for target.
-CMakeFiles/ADHDOrganizer.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ADHDOrganizer.dir/build.make CMakeFiles/ADHDOrganizer.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ADHDOrganizer.dir/build.make CMakeFiles/ADHDOrganizer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/frostie/PycharmProjects/ADHDOrganizer/build/CMakeFiles --progress-num=1,2 "Built target ADHDOrganizer"
-.PHONY : CMakeFiles/ADHDOrganizer.dir/all
+CMakeFiles/80HD.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/80HD.dir/build.make CMakeFiles/80HD.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/80HD.dir/build.make CMakeFiles/80HD.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/frostie/PycharmProjects/80HD/build/CMakeFiles --progress-num=1,2 "Built target 80HD"
+.PHONY : CMakeFiles/80HD.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ADHDOrganizer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/frostie/PycharmProjects/ADHDOrganizer/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ADHDOrganizer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/frostie/PycharmProjects/ADHDOrganizer/build/CMakeFiles 0
-.PHONY : CMakeFiles/ADHDOrganizer.dir/rule
+CMakeFiles/80HD.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/frostie/PycharmProjects/80HD/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/80HD.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/frostie/PycharmProjects/80HD/build/CMakeFiles 0
+.PHONY : CMakeFiles/80HD.dir/rule
 
 # Convenience name for target.
-ADHDOrganizer: CMakeFiles/ADHDOrganizer.dir/rule
-.PHONY : ADHDOrganizer
+80HD: CMakeFiles/80HD.dir/rule
+.PHONY : 80HD
 
 # clean rule for target.
-CMakeFiles/ADHDOrganizer.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ADHDOrganizer.dir/build.make CMakeFiles/ADHDOrganizer.dir/clean
-.PHONY : CMakeFiles/ADHDOrganizer.dir/clean
+CMakeFiles/80HD.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/80HD.dir/build.make CMakeFiles/80HD.dir/clean
+.PHONY : CMakeFiles/80HD.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/frostie/PycharmProjects/ADHDOrganizer/CMakeLists.txt"
+  "/Users/frostie/PycharmProjects/80HD/CMakeLists.txt"
   "CMakeFiles/3.24.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.4/CMakeSystem.cmake"
@@ -47,5 +47,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ADHDOrganizer.dir/DependInfo.cmake"
+  "CMakeFiles/80HD.dir/DependInfo.cmake"
   )

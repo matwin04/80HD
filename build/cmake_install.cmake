@@ -1,4 +1,4 @@
-# Install script for directory: /Users/frostie/PycharmProjects/ADHDOrganizer
+# Install script for directory: /Users/frostie/PycharmProjects/80HD
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/frostie/PycharmProjects/ADHDOrganizer/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/frostie/PycharmProjects/80HD/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
